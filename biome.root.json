@@ -1,0 +1,15 @@
+{
+    "$schema": "https://biomejs.dev/schemas/2.3.11/schema.json",
+    "extends": ["./biome.json"],
+    "files": {
+        "includes": [
+            "README.md",
+            ".gitignore",
+            "turbo.json",
+            "package.json",
+            "tsconfig.json",
+            "biome.json",
+            "biome.root.json"
+        ]
+    }
+}
