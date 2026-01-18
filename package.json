@@ -24,8 +24,7 @@
         "lint:root": "biome check --write --config-path=biome.root.json",
         "lint:fix": "bun lint:root && turbo run lint:fix",
         "validate": "turbo run validate",
-        "clean": "./scripts/clean",
-        "coverage:upload": "./scripts/coverage-uploads"
+        "clean": "./scripts/clean"
     },
     "dependencies": {},
     "peerDependencies": {},
