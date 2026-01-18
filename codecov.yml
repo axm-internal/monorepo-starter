@@ -1,0 +1,22 @@
+flag_management:
+  default_rules:
+    carryforward: true
+    statuses:
+      - type: project
+        target: auto
+        threshold: 1%
+      - type: patch
+        target: 90%
+  individual_flags:
+    - name: zod-helpers
+      paths:
+        - packages/zod-helpers/**
+    - name: tooling-config
+      paths:
+        - packages/tooling-config/**
+    - name: cli-kit
+      paths:
+        - packages/cli-kit/**
+    - name: repo-cli
+      paths:
+        - apps/repo-cli/**

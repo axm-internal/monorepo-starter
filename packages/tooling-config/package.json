@@ -1,0 +1,13 @@
+{
+    "name": "@repo-starter/tooling-config",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Config-only shared tooling configurations (non-published)",
+    "files": [
+        "tsconfig/tsconfig.json",
+        "tsconfig/tsconfig.apps.json",
+        "tsconfig/tsconfig.packages.json",
+        "tsconfig/tsconfig.decorators.json"
+    ],
+    "scripts": {}
+}
